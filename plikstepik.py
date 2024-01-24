@@ -1,3 +1,10 @@
+
+
 def dodaj(a, b):
-    """Funkcja dodająca dwie liczby."""
     return a + b
+
+def test_suma():
+    assert  dodaj(5,6)==11
+    
+    
+    
